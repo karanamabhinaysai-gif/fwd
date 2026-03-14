@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: #f4f6fb;
+            color: #333;
+        }
+
+        /* HEADER */
+        header {
+            background: #0a192f;
+            color: white;
+            padding: 20px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header h1 {
+            font-size: 22px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: #64ffda;
+        }
+
+        /* HERO */
+        .hero {
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background: linear-gradient(120deg, #0a192f, #112240);
+            color: white;
+            padding: 20px;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 25px;
+            color: #ccd6f6;
+        }
+
+        .btn {
+            padding: 12px 25px;
+            background: #64ffda;
+            color: #0a192f;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        /* SECTIONS */
+        section {
+            padding: 60px 80px;
+        }
+
+        section h2 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #0a192f;
+        }
+
+        /* ABOUT */
+        .about p {
+            max-width: 700px;
+            line-height: 1.7;
+        }
+
+        /* SKILLS */
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+        }
+
+        .skill {
+            background: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        /* PROJECTS */
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 25px;
+        }
+
+        .project {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .project h3 {
+            margin-bottom: 10px;
+        }
+
+        /* CONTACT */
+        .contact p {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background: #0a192f;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ABHINAY </h1>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+
+
+<section class="hero">
+    <div>
+        <h2>Hello, I'm DEVIL</h2>
+        <p>Aspiring Developer | Student | Tech Enthusiast</p>
+        <a href="#projects" class="btn">View My Work</a>
+    </div>
+</section>
+
+<section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+        I am a student passionate about web development and programming.
+        I enjoy building websites and learning new technologies.
+        This portfolio showcases my skills and projects.
+        i love to travel. iam a foodie.
+
+    </p>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="skills">
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">Java</div>
+        <div class="skill">Python</div>
+        <div class="skill">SQL</div>
+        <div class="skill">Git</div>
+    </div>
+</section>
+
+<section id="projects">
+<h2>Projects</h2>
+
+<div class="projects">
+
+<a href="iplprohect.html" style="text-decoration:none;color:inherit;">
+<div class="project">
+<h3>IPL Fan Website</h3>
+<p>IPL fan page with teams, schedule and points table.</p>
+</div>
+</a>
+
+<a href="restuarents.html" style="text-decoration:none;color:inherit;">
+<div class="project">
+<h3>FD Restaurant Website</h3>
+<p>Restaurant menu website using HTML and CSS.</p>
+</div>
+</a>
+
+<div class="project">
+<h3>Sorting Algorithms</h3>
+<p>Implemented sorting algorithms in Java.</p>
+</div>
+
+</div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact number: 8688833257 OR 9885432445</h2>
+    <p>Email: karanamabhinaysai@gmail.com OR karanam.abhinaysai@klh.edu.in</p>
+    <p>GitHub: https://github.com/karanamabhinaysai-gif</p>
+    <p>LinkedIn: https://www.linkedin.com/in/karanam-abhinay-sai-6352733b1/</p>
+</section>
+
+<footer>
+    © 2026 the Devil | Portfolio
+</footer>
+
+</body>
+</html>
